@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>StreamFlow - Tu Música</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse; /* Añadido para mejor visualización */
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <figure>
+        <img src="img.png" alt="Logotipo StreamFlow">
+    </figure>
+
+    <h1>StreamFlow Music</h1>
+    <h2>Siente el ritmo sin límites</h2>
+
+    <nav>
+        <ul>
+            <li><a href="#top-canciones">Top Canciones</a></li>
+            <li><a href="#lanzamientos">Nuevos Lanzamientos</a></li>
+            <li><a href="#artista-fav">Tu Artista Favorito</a></li>
+        </ul>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+    <section id="top-canciones">
+        <h2>Top Canciones Global</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Posición</th>
+                <th scope="col">Título</th>
+                <th scope="col">Artista</th>
+                <th scope="col">Duración</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Blinding Lights</td>
+                <td>The Weeknd</td>
+                <td>3:20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>As It Was</td>
+                <td>Harry Styles</td>
+                <td>2:47</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Flowers</td>
+                <td>Miley Cyrus</td>
+                <td>3:21</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="lanzamientos">
+        <h2>Nuevos Lanzamientos</h2>
+
+        <!-- Viendo como funciona "<audio controls>", encontre source. Es practicamente lo mismo que src
+        pero más profesional y moderno
+        -->
+        <article>
+            <h3>Midnight Rain - Álbum Completo</h3>
+            <figure>
+                <img src="img.png" alt="Portada del álbum Midnight Rain, tonos azules oscuros">
+                <figcaption>Lanzamiento: Octubre 2024</figcaption>
+            </figure>
+            <p>Estilo: Pop alternativo con sintetizadores envolventes y letras melancólicas.</p>
+            <audio controls>
+                <source src="#" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </article>
+
+        <br>
+
+        <article>
+            <h3>Rock Revival - Single</h3>
+            <figure>
+                <img src="img.png" alt="Portada del single Rock Revival, guitarra eléctrica en llamas">
+                <figcaption>Banda: The Thunders</figcaption>
+            </figure>
+            <p>Estilo: Hard Rock clásico con influencias de los años 80.</p>
+            <audio controls>
+                <source src="#" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="artista-fav">
+        <h2>Tu Artista Favorito: Queen</h2>
+
+        <p>Queen es una banda británica de rock formada en 1970 en Londres. Integrada por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon.</p>
+
+        <figure>
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Video de Queen" style="border:none;" allowfullscreen></iframe>
+            <figcaption>Actuación en vivo - Bohemian Rhapsody</figcaption>
+        </figure>
+    </section>
+
+</main>
+
+<hr>
+
+<aside>
+    <h3>Recomendado para ti</h3>
+    <ul>
+        <li>Playlist: Lo mejor del Rock</li>
+        <li>Podcast: Historia de la Música</li>
+        <li>Novedades Indie 2025</li>
+    </ul>
+</aside>
+
+<hr>
+
+<footer>
+    <p>Aviso Legal: StreamFlow cumple con la normativa de derechos de autor.</p>
+    <p><a href="#">Contactar Soporte</a></p>
+    <p>&copy; 2025 StreamFlow Music.</p>
+</footer>
+
+</body>
+</html>

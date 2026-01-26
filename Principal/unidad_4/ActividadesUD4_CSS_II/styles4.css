@@ -1,0 +1,18 @@
+.tarjeta {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+    /* background: linear-gradient(45deg, #ff9a9e, #fad0c4); */
+
+    /* background: radial-gradient(circle, #a1c4fd, #c2e9fb); */
+
+    background: conic-gradient(from 0deg, #f093fb, #f5576c, #f093fb);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 0;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Estudiante</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <figure>
+            <img src="img.png" alt="Logo Instituto">
+        </figure>
+    </div>
+    <h1>Panel Estudiante</h1>
+    <nav>
+        <ul>
+            <li><a href="#estadisticas">Estadísticas</a></li>
+            <li><a href="#registro">Ir al Formulario</a></li>
+        </ul>
+    </nav>
+</header>
+<hr>
+
+<main>
+    <article id="estadisticas">
+        <h2>Estadísticas</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th scope="col">Alumno</th>
+                <th scope="col">Asignatura</th>
+                <th scope="col">Nota</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="3">Juan</td>
+                <td>Diseño</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Cliente</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Servidor</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Pedro</td>
+                <td>Diseño</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Cliente</td>
+                <td>10</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Media Curso:</th>
+                <td>4.1</td>
+            </tr>
+            </tfoot>
+        </table>
+    </article>
+    <br>
+
+    <article id="registro">
+        <h2>Formulario de Registro</h2>
+        <form action="#" method="post">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" name="curso"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>
+                <input type="radio" name="especialidad" value="DAW"> DAW
+            </label>
+            <label>
+                <input type="radio" name="especialidad" value="ASIR"> ASIR
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" name="politica" required>
+                Acepto la política de datos
+            </label>
+            <br><br>
+
+            <button type="submit">Registrar Estudiante</button>
+        </form>
+    </article>
+</main>
+
+<aside>
+    <h2>Recursos recomendados</h2>
+    <ul>
+        <li><a href="https://www.w3.org" target="_blank">Documentación Oficial W3C</a></li>
+    </ul>
+</aside>
+<hr>
+
+<footer>
+    <p>&copy; 2026 Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

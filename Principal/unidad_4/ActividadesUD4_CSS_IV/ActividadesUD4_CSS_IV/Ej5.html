@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <style>
+      .blog {
+          display: grid;
+          grid-template-columns: 3fr 1fr;
+          gap: 30px;
+          place-content: start center;
+      }
+      .posts {
+          display: grid;
+          justify-items: start;
+          align-items: stretch;
+      }
+      .destacado {
+          place-self: center stretch;
+          background-color: #f9f9f9;
+      }
+  </style>
+</head>
+<body>
+
+  <section class="blog">
+    <main class="posts">
+      <article class="post">
+        <h2>Artículo 1</h2>
+        <p>Contenido del artículo.</p>
+      </article>
+
+      <article class="post destacado">
+        <h2>Artículo destacado</h2>
+        <p>Contenido del artículo.</p>
+      </article>
+
+      <article class="post">
+        <h2>Artículo 3</h2>
+        <p>Contenido del artículo.</p>
+      </article>
+    </main>
+
+    <aside class="sidebar">
+      <h3>Barra lateral</h3>
+      <p>Enlaces, publicidad, etc.</p>
+    </aside>
+  </section>
+
+</body>
+</html>

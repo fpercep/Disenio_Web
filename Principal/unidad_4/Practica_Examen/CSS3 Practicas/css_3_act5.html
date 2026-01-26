@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #main {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        nav {
+            order: 1;
+        }
+
+        article {
+            flex: 1;
+            order: 2;
+        }
+
+        #main > * {
+            border: black solid 1px;
+        }
+
+        aside {
+            order: 3;
+        }
+
+        nav, aside {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <article>Contenido principal</article>
+    <nav>Menú de navegación</nav>
+    <aside>Publicidad</aside>
+</div>
+</body>
+</html>

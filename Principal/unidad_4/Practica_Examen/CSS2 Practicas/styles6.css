@@ -1,0 +1,13 @@
+
+
+.animacion {
+    animation: miEfecto 5s infinite ease-in-out alternate;
+    position: relative;
+    height: 10px;
+    width: 200px;
+    border: black 1px solid;
+}
+@keyframes miEfecto {
+    0% { top: 0px;  width: 200px; background-color: red;}
+    100% { top: 100px; width: 500px; background-color: blue; }
+}

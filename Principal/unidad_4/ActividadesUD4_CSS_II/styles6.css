@@ -1,0 +1,21 @@
+.animacion {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: relative;
+
+    animation: miEfecto 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes miEfecto {
+    0% {
+        background-color: #3498db;
+        left: 0px;
+        transform: scale(1);
+    }
+    100% {
+        background-color: #f1c40f;
+        left: 200px;
+        transform: scale(1.5);
+    }
+}

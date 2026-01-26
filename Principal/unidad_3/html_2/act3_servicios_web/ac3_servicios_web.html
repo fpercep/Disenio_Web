@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios Web Profesionales</title>
+    <style>
+        table,tr,td,th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DevSolutions: Servicios Web</h1>
+    <nav>
+        <ul>
+            <li><a href="#disenio">Diseño Web</a></li>
+            <li><a href="#programacion">Programación</a></li>
+            <li><a href="#mantenimiento">Mantenimiento</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+    <section id="disenio">
+        <h2>1. Diseño Web UI/UX</h2>
+
+        <article>
+            <h3>Creación de interfaces visuales</h3>
+            <p>Nos enfocamos en la experiencia de usuario y la estética moderna.</p>
+
+            <figure>
+                <img src="img.png" alt="Bocetos de diseño web en tablet">
+                <figcaption>Prototipado en Figma</figcaption>
+            </figure>
+
+            <h4>Proceso de trabajo:</h4>
+            <ul>
+                <li>Entrevista con el cliente.</li>
+                <li>Creación de Wireframes.</li>
+                <li>Diseño final en alta fidelidad.</li>
+            </ul>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="programacion">
+        <h2>2. Programación Full Stack</h2>
+
+        <article>
+            <h3>Desarrollo a medida</h3>
+            <p>Implementamos la lógica de negocio con las últimas tecnologías.</p>
+
+            <figure>
+                <img src="img.png" alt="Pantalla con código HTML y JS">
+                <figcaption>Desarrollo limpio y escalable</figcaption>
+            </figure>
+
+            <h4>Fases de desarrollo:</h4>
+            <ul>
+                <li>Configuración del servidor y base de datos.</li>
+                <li>Desarrollo del Backend (API).</li>
+                <li>Integración del Frontend.</li>
+            </ul>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="mantenimiento">
+        <h2>3. Mantenimiento y Soporte</h2>
+
+        <article>
+            <h3>Seguridad y Actualizaciones</h3>
+            <p>Mantenemos tu sitio seguro y actualizado frente a vulnerabilidades.</p>
+
+            <figure>
+                <img src="img.png" alt="Servidores en centro de datos">
+                <figcaption>Monitorización 24/7</figcaption>
+            </figure>
+
+            <h4>Tareas mensuales:</h4>
+            <ul>
+                <li>Copia de seguridad (Backup).</li>
+                <li>Actualización de plugins/librerías.</li>
+                <li>Revisión de logs de errores.</li>
+            </ul>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="precios">
+        <h2>Comparativa de Planes</h2>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Características</th>
+                <th scope="col">Básico</th>
+                <th scope="col">Pro</th>
+                <th scope="col">Empresa</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Diseño</td>
+                <td>Plantilla</td>
+                <td>Personalizado</td>
+                <td>Exclusivo</td>
+            </tr>
+            <tr>
+                <td>Páginas</td>
+                <td>Hasta 3</td>
+                <td>Hasta 10</td>
+                <td>Ilimitadas</td>
+            </tr>
+            <tr>
+                <td rowspan="2"><b>Soporte Técnico</b></td>
+                <td>Email (48h)</td>
+                <td>Email (24h)</td>
+                <td>Email (1h)</td>
+            </tr>
+            <tr>
+                <td>No incluye</td>
+                <td>Teléfono 9-5</td>
+                <td>Teléfono 24h</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4">Todos los precios incluyen IVA (21%)</td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="contacto">
+        <h2>Solicitar Presupuesto</h2>
+        <form action="#" method="POST">
+
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+                <h3>Tipo de Servicio:</h3>
+                <label>
+                    <input type="radio" name="servicio" value="disenio"> Diseño
+                </label><br>
+                <label>
+                    <input type="radio" name="servicio" value="programacion"> Programación
+                </label><br>
+                <label>
+                    <input type="radio" name="servicio" value="mantenimiento"> Mantenimiento
+                </label>
+            <br><br>
+
+            <label for="presupuesto">Presupuesto Estimado (€):</label><br>
+            <input type="number" id="presupuesto" name="presupuesto"><br><br>
+
+            <label for="comentarios">Detalles del proyecto:</label><br>
+            <textarea id="comentarios" name="comentarios"></textarea><br><br>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+</main>
+
+<hr>
+
+<footer>
+    <p>&copy; 2023 DevSolutions S.L.</p>
+    <p><a href="#" target="_blank">Política de Privacidad</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.caja1, .caja2 {
+    width: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    margin-bottom: 10px;
+    background: red;
+}
+
+.caja1 {
+    box-sizing: border-box;
+    background: radial-gradient(red, green) ;
+}
+
+.caja2 {
+    background: linear-gradient(red, green) ;
+}
+:hover .caja1 {
+    width: 1000px;
+    box-shadow: #3498db 2px 2px 2px;
+    transition-delay: 250ms;
+    transition-duration: 10s;
+    transition: box-shadow, width, alt;
+}
+

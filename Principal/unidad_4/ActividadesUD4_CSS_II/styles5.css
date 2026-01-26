@@ -1,0 +1,18 @@
+.caja-transicion {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+
+    transition: all 2s ease-in-out 0.5s;
+}
+
+.caja-transicion:hover {
+    width: 400px;
+    background-color: #e74c3c;
+}

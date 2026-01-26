@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p {
+            color: green;
+        }
+        p.parrafo_especial{
+            color: red;
+        }
+        #contenedor {
+            align-items: center;
+        }
+        #contenedor > * {
+            border: #2c3e50 1px solid;
+        }
+        .parrafo_especial + p{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div class="subContenedor">
+            <p class="parrafo_especial">Hola Mundo</p>
+            <p>Hola Mundo</p>
+            <p>Hola Mundo</p>
+        </div>
+        <div class="subContenedor">
+            <h2>Hola Mundo</h2>
+        </div>
+    </div>
+</body>
+</html>

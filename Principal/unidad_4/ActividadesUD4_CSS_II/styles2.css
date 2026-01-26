@@ -1,0 +1,15 @@
+.contenedor > div{
+    width: 200px;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+.caja1 {
+    box-sizing: border-box;
+}
+
+/*
+    La caja con 'border-box' mide exactamente 200px de ancho total porque incluye el
+   padding y el borde dentro de esa medida. La otra caja (content-box) mide 260px
+   porque suma el padding y el borde de forma externa al ancho definido
+*/

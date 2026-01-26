@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5500b216-d186-424b-9841-206141c9ae35" name="Changes" comment="Cambios y repaso">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Principal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/ac1_portafolio/act1_portafolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/ac1_portafolio/airplane-landing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/ac2_panel_estudiante/act2_panel_estudiante.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/ac2_panel_estudiante/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/act3_servicios_web/ac3_servicios_web.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/act3_servicios_web/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/act4_streaming_musica/act4_streaming_musica.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/act4_streaming_musica/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/act5_Eventos-Festival/act5_eventos_festival.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/html_2/act5_Eventos-Festival/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_3/unidad_4.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/Ejercicio1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/Ejercicio2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/Ejercicio3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/Ejercicio4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/Ejercicio5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/Ejercicio6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/styles1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/styles2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/styles3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/styles4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/styles5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_II/styles6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_III/css_3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_III/css_3_act1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_III/css_3_act2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_III/css_3_act3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_III/css_3_act4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_III/css_3_act5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_IV/ActividadesUD4_CSS_IV/Ej1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_IV/ActividadesUD4_CSS_IV/Ej2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_IV/ActividadesUD4_CSS_IV/Ej3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_IV/ActividadesUD4_CSS_IV/Ej4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_IV/ActividadesUD4_CSS_IV/Ej4.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/ActividadesUD4_CSS_IV/ActividadesUD4_CSS_IV/Ej5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS1 Practicas/PNG_transparency_demonstration_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS1 Practicas/act1.css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS1 Practicas/act4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS1 Practicas/act5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS2 Practicas/Ejercicio2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS2 Practicas/Ejercicio6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS2 Practicas/styles2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS2 Practicas/styles6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS3 Practicas/css_3_act3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS3 Practicas/css_3_act5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS4 Practicas/Ej1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS4 Practicas/Ej2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/Practica_Examen/CSS4 Practicas/Ej4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/act_css/act_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/act_css/fondo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/act_css/perez_francisco_unidad4_CSS.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_4/act_css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "fpercep"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:fpercep/Disenio_Web.git",
+    "accountId": "139008c6-d245-4a88-9ee4-f576b3677af8"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="37zCBuPBIh6fAvID5LiAZlvQluJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Repo/Diseño-Web/Principal/unidad_4/Practica_Examen/CSS4 Practicas",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/usuario/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/24.12.0/node",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_4\Practica_Examen\CSS4 Practicas" />
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_4\Practica_Examen\CSS3 Practicas" />
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_4\Practica_Examen\CSS2 Practicas" />
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_4\Practica_Examen" />
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_3\unidad_4\ActividadesUD4_CSS_III" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_4\Practica_Examen\CSS1 Practicas" />
+      <recent name="C:\Repo\Diseño-Web\Principal" />
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_3\unidad_4" />
+      <recent name="C:\Repo\Diseño-Web\Principal\unidad_3\unidad_4\act_css" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5500b216-d186-424b-9841-206141c9ae35" name="Changes" comment="" />
+      <created>1767896382319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767896382319</updated>
+      <workItem from="1767896383938" duration="2028000" />
+      <workItem from="1768155770343" duration="2762000" />
+      <workItem from="1768478874027" duration="77000" />
+      <workItem from="1768756476146" duration="100000" />
+      <workItem from="1769014227540" duration="2229000" />
+      <workItem from="1769368718861" duration="2739000" />
+      <workItem from="1769372311007" duration="5343000" />
+      <workItem from="1769426494787" duration="4565000" />
+      <workItem from="1769440625999" duration="1863000" />
+    </task>
+    <task id="LOCAL-00001" summary="Poner al día repositorio">
+      <option name="closed" value="true" />
+      <created>1768478942055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768478942055</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Actividades CSS 3-4">
+      <option name="closed" value="true" />
+      <created>1769016413146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769016413146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Actividades CSS 3-4">
+      <option name="closed" value="true" />
+      <created>1769016468242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769016468242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cambios y repaso">
+      <option name="closed" value="true" />
+      <created>1769383847484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769383847484</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cambios y repaso">
+      <option name="closed" value="true" />
+      <created>1769441940911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769441940911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Poner al día repositorio" />
+    <MESSAGE value="Actividades CSS 3-4" />
+    <MESSAGE value="Cambios y repaso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios y repaso" />
+  </component>
+</project>

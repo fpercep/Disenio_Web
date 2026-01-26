@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival 2025</title>
+    <style>
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <figure>
+        <img src="img.png" alt="Logo CyberTech Festival">
+    </figure>
+
+    <h1>CyberTech Festival 2025</h1>
+    <h2>15 de Agosto - Madrid Arena</h2>
+
+    <nav>
+        <ul>
+            <li><a href="#informacion">Información</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#entradas">Entradas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+    <section id="informacion">
+        <h2>Información del Evento</h2>
+        <article>
+            <p>Bienvenido a la fusión definitiva entre música electrónica y realidad virtual. CyberTech no es solo un concierto, es una experiencia inmersiva donde los videojuegos retro y el Synthwave se encuentran.</p>
+
+            <h3>Lo que encontrarás:</h3>
+            <ul>
+                <li>Torneos de Arcade en vivo.</li>
+                <li>Proyecciones holográficas 3D.</li>
+                <li>Zona de Food Trucks "CyberPunk".</li>
+                <li>Meet & Greet con desarrolladores indie.</li>
+            </ul>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="horarios">
+        <h2>Horarios / Line Up</h2>
+
+        <table>
+            <caption>Programación del Escenario Principal</caption>
+            <thead>
+            <tr>
+                <th scope="col">Hora</th>
+                <th scope="col">Escenario</th>
+                <th scope="col">Artista / Actividad</th>
+                <th scope="col">Duración</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>16:00</td>
+                <td>Sala Pixel</td>
+                <td>Torneo Street Fighter</td>
+                <td>2h</td>
+            </tr>
+            <tr>
+                <td>18:30</td>
+                <td>Main Stage</td>
+                <td>DJ CodeRunner</td>
+                <td>1h 30m</td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td>Main Stage</td>
+                <td>The Neon Grid (Live)</td>
+                <td>2h</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="entradas">
+        <h2>Compra tus Entradas</h2>
+
+        <form action="#" method="POST">
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre"><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required placeholder="ejemplo@email.com"><br>
+
+            <label for="cantidad">Número de entradas:</label><br>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="10" value="1"><br>
+
+            <label for="tipo-entrada">Tipo de Pase:</label><br>
+            <select id="tipo-entrada" name="tipo-entrada">
+                <option value="general">General (30€)</option>
+                <option value="vip">VIP Backstage (80€)</option>
+                <option value="meet">Meet & Greet (120€)</option>
+            </select><br><br>
+
+            <button type="submit">Reservar Ahora</button>
+        </form>
+    </section>
+
+</main>
+
+<hr>
+
+<aside>
+    <h3>Artistas Destacados</h3>
+    <ul>
+        <li>
+            <strong>DJ CodeRunner</strong> -
+            <a href="https://soundcloud.com" target="_blank">Escuchar en Soundcloud</a>
+        </li>
+        <li>
+            <strong>The Neon Grid</strong> -
+            <a href="https://spotify.com" target="_blank">Perfil de Spotify</a>
+        </li>
+        <li>
+            <strong>Kojima Productions</strong> -
+            <a href="https://kojimaproductions.jp" target="_blank">Web Oficial</a>
+        </li>
+    </ul>
+</aside>
+
+<hr>
+
+<footer id="contacto">
+    <h3>Contacto y Legal</h3>
+    <p>Email: correo@correo.correo</p>
+    <p>Aviso Legal: Evento para mayores de 18 años. Política de devoluciones disponible en web.</p>
+
+    <p>
+        <strong>Ubicación:</strong>
+        <a href="https://maps.google.com" target="_blank">Ver en Google Maps</a>
+    </p>
+
+    <p>&copy; 2025 CyberTech Events S.L.</p>
+</footer>
+</body>
+</html>
