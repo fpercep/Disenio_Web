@@ -1,0 +1,22 @@
+$product-colors: (
+        "basic": #3498db,
+        "premium": #e67e22,
+        "vip": #965966
+);
+
+@mixin card-style($bg) {
+  background-color: $bg;
+  padding: 20px;
+}
+
+.card-basic {
+  @include card-style(map-get($product-colors, "basic"));
+}
+
+.card-premium {
+  @include card-style(map-get($product-colors, "premium"));
+}
+
+.card-vip {
+  @include card-style(map-get($product-colors, "vip"));
+}

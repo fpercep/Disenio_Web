@@ -1,0 +1,23 @@
+@mixin box-shadow($x: 0, $y: 0, $blur: 5px, $color: rgba(0,0,0,0.3)) {
+  box-shadow: $x $y $blur $color;
+}
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+.card-small {
+  @include box-shadow();
+  @include sizes(150px, 100px);
+}
+
+.card-medium {
+  @include box-shadow(2px, 2px, 8px);
+  @include sizes(250px, 200px);
+}
+
+.card-large {
+  @include box-shadow(4px, 4px, 12px);
+  @include sizes(350px, 300px);
+}

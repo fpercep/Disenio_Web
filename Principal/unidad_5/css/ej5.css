@@ -1,0 +1,18 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li + li {
+  margin-left: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #3498db;
+}
+
+/*# sourceMappingURL=ej5.css.map */

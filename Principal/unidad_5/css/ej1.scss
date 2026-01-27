@@ -1,0 +1,17 @@
+$bg-light: #f5f5f5;
+$text-light: #333;
+$bg-dark: #333;
+$text-dark: #f5f5f5;
+
+@mixin theme($bg, $text) {
+  background-color: $bg;
+  color: $text;
+}
+
+.light-theme {
+  @include theme($bg-light, $text-light);
+}
+
+.dark-theme {
+  @include theme($bg-dark, $text-dark);
+}

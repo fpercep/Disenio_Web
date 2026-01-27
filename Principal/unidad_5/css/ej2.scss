@@ -1,0 +1,29 @@
+$btn-padding: 10px 20px;
+$btn-radius: 5px;
+$btn-primary: #007bff;
+$btn-secondary: #6c757d;
+$btn-success: #28a745;
+
+@mixin button-style($bg, $color: #fff) {
+  padding: $btn-padding;
+  border-radius: $btn-radius;
+  cursor: pointer;
+  background-color: $bg;
+  color: $color;
+  border: none;
+  &:hover {
+    background-color: darken($bg, 10%);
+  }
+}
+
+.btn-primary {
+  @include button-style($btn-primary);
+}
+
+.btn-secondary {
+  @include button-style($btn-secondary);
+}
+
+.btn-success {
+  @include button-style($btn-success);
+}

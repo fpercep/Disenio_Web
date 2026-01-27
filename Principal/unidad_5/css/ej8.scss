@@ -1,0 +1,112 @@
+$font-main: 'Arial', sans-serif;
+$size-base: 16px;
+$color-text-base: #333;
+
+$card-sizes: (
+        "small": 150px,
+        "medium": 200px,
+        "large": 250px
+);
+
+$card-colors: (
+        "basic": #bdc3c7,
+        "premium": #f1c40f,
+        "vip": #965966
+);
+
+$alert-colors-map: (
+        "success": #2ecc71,
+        "error": #e74c3c
+);
+
+@mixin theme-light {
+  background-color: #f5f5f5;
+  color: #333;
+  a {
+    color: #3498db;
+  }
+}
+
+@mixin card-size($size) {
+  height: map-get($card-sizes, $size);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@mixin button-style($bg-color) {
+  background-color: $bg-color;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
+@mixin alert-style-proj($type) {
+  background-color: map-get($alert-colors-map, $type);
+  color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+@mixin text-base {
+  font-family: $font-main;
+  font-size: $size-base;
+  color: $color-text-base;
+}
+
+body {
+  @include text-base;
+}
+
+.light-theme {
+  @include theme-light;
+}
+
+nav {
+  background-color: #2c3e50;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: #f1c40f;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.card {
+  @include text-base;
+  &.card-small { @include card-size("small"); }
+  &.card-medium { @include card-size("medium"); }
+  &.card-large { @include card-size("large"); }
+
+  &.card-basic { background-color: map-get($card-colors, "basic"); }
+  &.card-premium { background-color: map-get($card-colors, "premium"); }
+  &.card-vip { background-color: map-get($card-colors, "vip"); }
+}
+
+button {
+  @include text-base;
+  &.btn-primary { @include button-style(#3498db); }
+  &.btn-success { @include button-style(#2ecc71); }
+}
+
+.alert {
+  @include text-base;
+  &.alert-success { @include alert-style-proj("success"); }
+  &.alert-error { @include alert-style-proj("error"); }
+}

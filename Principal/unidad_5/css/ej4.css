@@ -1,0 +1,16 @@
+.alert-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.alert-error {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.alert-warning {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/*# sourceMappingURL=ej4.css.map */
