@@ -1,0 +1,35 @@
+@use "sass:map";
+
+
+$card-border: #ddd;
+$colors: ("primary": #0d6efd);
+
+
+@mixin btn-style($bg-color) {
+  padding: 10px 20px;
+  background-color: $bg-color;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
+.product-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid $card-border;
+
+  .price {
+    border: 1px solid #ddd;
+    font-size: 20px;
+    color: #198754;
+  }
+
+  .btn-primary {
+    @include btn-style(map.get($colors, "primary"));
+  }
+}

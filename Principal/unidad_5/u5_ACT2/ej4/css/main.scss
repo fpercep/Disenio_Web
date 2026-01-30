@@ -1,0 +1,15 @@
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.input-text { @extend .form-control; }
+.input-password { @extend .form-control; }
+
+// Contenedor del formulario [cite: 65]
+.login {
+  width: 300px;
+  margin: 40px auto;
+}

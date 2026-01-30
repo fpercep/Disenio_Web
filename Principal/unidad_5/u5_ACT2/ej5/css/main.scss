@@ -1,0 +1,13 @@
+$screen-width: 800px;
+
+.dashboard {
+  display: flex;
+
+  @if $screen-width >= 768px {
+    background-color: #e3f2fd;
+    flex-direction: row;
+  } @else {
+    background-color: #fff3cd;
+    flex-direction: column;
+  }
+}

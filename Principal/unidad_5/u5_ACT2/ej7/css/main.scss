@@ -1,0 +1,22 @@
+$states: (
+        "pending": #ffc107,
+        "in-progress": #0d6efd,
+        "completed": #198754,
+        "cancelled": #dc3545
+);
+
+@each $name, $color in $states {
+  .status-#{$name} {
+    background-color: $color;
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+}
+
+.task-list {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
