@@ -1,0 +1,40 @@
+@avatar-size: 100px;
+@role-color: #7f8c8d;
+
+.redondear(@radio) {
+  border-radius: @radio;
+}
+
+.employee-profile {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  font-family: sans-serif;
+
+  &:hover {
+    .name {
+      font-size: 24px + 2px;
+      transition: font-size 0.2s;
+    }
+  }
+}
+
+.avatar {
+  width: @avatar-size;
+  height: @avatar-size;
+  object-fit: cover;
+
+  .redondear(50%);
+}
+
+.name {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.role {
+  color: @role-color;
+  display: block;
+}

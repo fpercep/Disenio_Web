@@ -1,0 +1,28 @@
+.pricing {
+  display: flex;
+  gap: 20px;
+}
+.plan {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+.plan h3 {
+  font-size: 1.2rem;
+}
+.plan p {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.basic {
+  border-top: 5px solid #bdc3c7;
+}
+.pro {
+  border-top: 8px solid #f1c40f;
+  transform: scale(1.05);
+}
+.enterprise {
+  border-top: 5px solid #8e44ad;
+}

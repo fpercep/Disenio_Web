@@ -1,0 +1,37 @@
+@color-primary: #3498db;
+@color-text: #2c3e50;
+@base-spacing: 16px;
+
+@font-size-base: 16px;
+
+body {
+  font-family: sans-serif;
+  color: @color-text;
+  font-size: @font-size-base;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid @color-primary;
+  padding: @base-spacing;
+  border-radius: 8px;
+
+  .card-title {
+    font-size: @font-size-base * 2;
+    color: @color-primary;
+  }
+
+  .card-body {
+    margin-bottom: @base-spacing;
+  }
+
+  .btn-primary {
+    background-color: @color-primary;
+    color: white;
+    border: none;
+    padding: (@base-spacing / 2) @base-spacing;
+    cursor: pointer;
+    font-size: @font-size-base;
+  }
+}

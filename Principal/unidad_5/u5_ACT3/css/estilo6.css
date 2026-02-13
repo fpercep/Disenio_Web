@@ -1,0 +1,26 @@
+.employee-profile {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  font-family: sans-serif;
+}
+.employee-profile:hover .name {
+  font-size: 26px;
+  transition: font-size 0.2s;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+.role {
+  color: #7f8c8d;
+  display: block;
+}

@@ -1,0 +1,45 @@
+// 1. Variables para los planes [cite: 20]
+@color-basic: #bdc3c7;
+@color-pro: #f1c40f;
+@color-enterprise: #8e44ad;
+
+// 2. Mixin de formato [cite: 21]
+.formato-plan() {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+.pricing {
+  display: flex;
+  gap: 20px;
+}
+
+.plan {
+  .formato-plan();
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem * 1.5;
+    font-weight: bold;
+  }
+}
+
+.basic {
+  border-top: 5px solid @color-basic;
+}
+
+.pro {
+  @borde-pro: 8px;
+  border-top: @borde-pro solid @color-pro;
+  transform: scale(1.05); // Para destacar
+}
+
+.enterprise {
+  border-top: 5px solid @color-enterprise;
+}
