@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5 - Estado y Reinicio</title>
+</head>
+<body>
+<h1>Ejercicio 5</h1>
+
+<audio id="miAudio">
+    <source src="../audio/sonido.mp3" type="audio/mpeg">
+    <source src="../audio/sonido.ogg" type="audio/ogg">
+</audio>
+
+<button onclick="reproducirAudio()">Reproducir</button>
+<button onclick="pausarAudio()">Pausar</button>
+<button onclick="reiniciarAudio()">Reiniciar</button>
+
+<p>Estado: <span id="estadoTexto">Pausado</span></p>
+
+<script src="js/script.js"></script>
+</body>
+</html>

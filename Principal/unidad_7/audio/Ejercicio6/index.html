@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6 - Reproductor Personalizado</title>
+</head>
+<body>
+<h1>Ejercicio 6</h1>
+
+<audio id="miAudio">
+    <source src="../audio/sonido.mp3" type="audio/mpeg">
+    <source src="../audio/sonido.ogg" type="audio/ogg">
+</audio>
+
+<div>
+    <button id="btnPlay">Play</button>
+    <button id="btnPause">Pause</button>
+    <button id="btnReset">Reiniciar</button>
+</div>
+<br>
+<div>
+    <input type="range" id="miBarra" value="0" step="0.1" style="width: 300px;">
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

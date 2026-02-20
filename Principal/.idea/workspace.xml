@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5500b216-d186-424b-9841-206141c9ae35" name="Changes" comment="Tema 5">
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/Ej1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/Ej2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/Ej3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/Ej4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/Ej5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/Ej6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/css/estilo1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/css/estilo2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/css/estilo3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/css/estilo4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/css/estilo5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/css/estilo6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/less/estilo1.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/less/estilo2.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/less/estilo3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/less/estilo4.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/less/estilo5.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unidad_5/u5_ACT3/less/estilo6.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio4/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio5/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/Ejercicio6/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/audio/sonido.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unidad_7/audio/audio/sonido.ogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej1.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej2.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej3.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej4.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej5.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej6.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej7.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej8.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT1/css/ej8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT2/ej7/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT2/ej7/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unidad_5/u5_ACT2/ej8/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/unidad_5/u5_ACT2/ej8/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Less File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,7 +66,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Repo/Diseño-Web/Principal/unidad_5/u5_ACT3/less",
+    "last_opened_file_path": "C:/repo/Diseño-Web/Principal/unidad_7/audio",
     "list.type.of.created.stylesheet": "Less",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,18 +81,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\repo\Diseño-Web\Principal\unidad_7\audio" />
       <recent name="C:\Repo\Diseño-Web\Principal\unidad_5\u5_ACT3\less" />
       <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej8" />
       <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej7" />
       <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej6\css" />
-      <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej5\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repo\Diseño-Web\Principal\unidad_7\audio\audio" />
+      <recent name="C:\repo\Diseño-Web\Principal\unidad_7\audio" />
       <recent name="C:\Repo\Diseño-Web\Principal\unidad_5" />
       <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej8" />
       <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej7" />
-      <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej6" />
-      <recent name="C:\repo\Diseño-Web\Principal\unidad_5\u5_ACT2\ej5" />
     </key>
   </component>
   <component name="SharedIndexes">
