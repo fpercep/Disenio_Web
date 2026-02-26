@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6 - Embed y Object</title>
+</head>
+<body>
+<h1>Ejercicio 6</h1>
+
+<!-- embed: método antiguo para insertar multimedia -->
+<embed src="../archivos/video.mp4" width="600" height="400" autostart="false">
+
+<br><br>
+
+<!-- object: otro método antiguo para insertar multimedia -->
+<object data="../archivos/video.mp4" width="600" height="400">
+    <param name="controls" value="true">
+    <param name="autostart" value="false">
+    Tu navegador no soporta este contenido.
+</object>
+
+<!--
+¿Por qué no se recomienda usar estos métodos actualmente?
+Porque <embed> y <object> son etiquetas obsoletas para multimedia.
+HTML5 introdujo <video> y <audio> que ofrecen una API nativa,
+mejor compatibilidad entre navegadores, controles integrados
+y no requieren plugins externos.
+-->
+</body>
+</html>
