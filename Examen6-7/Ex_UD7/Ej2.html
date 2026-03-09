@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2 - Audio avanzado con JavaScript</title>
+</head>
+<body>
+
+<h1>Ejercicio 2 - Audio avanzado con JavaScript</h1>
+
+<!-- Aquí debes añadir el audio -->
+<audio id="audio" >
+    <source src="audio/freesound_community-cinematic-intro-6097.mp3" type="audio/mpeg">
+    <source src="audio/freesound_community-cinematic-intro-6097.ogg" type="audio/mpeg">
+</audio>
+
+<!-- Botones de control -->
+<button id="play">Play</button>
+<button id="pause">Pause</button>
+<button id="reiniciar">Reiniciar</button>
+
+<p id="estado">
+</p>
+
+<script>
+    const audio = document.getElementById('audio')
+    const btnplay = document.getElementById('play')
+    const btnpause = document.getElementById('pause')
+    const btnreinciar = document.getElementById('reiniciar')
+    const estado = document.getElementById('estado')
+
+    btnpause.addEventListener('click', (e) => {
+        audio.pause()
+        estado.textContent = "Pausado"
+    })
+    btnplay.addEventListener('click', (e) => {
+        audio.play()
+        estado.textContent = "Sonando"
+    })
+    btnreinciar.addEventListener('click', (e) => {
+    })
+</script>
+
+</body>
+</html>

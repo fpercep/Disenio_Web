@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4 - Vídeo interactivo</title>
+</head>
+<body>
+
+<h1>Ejercicio 4 - Vídeo interactivo con JavaScript</h1>
+
+<video id="video"  controls width="600">
+    <source src="video/video2.mp4" type="video/mp4">
+    <source src="video/video2.webm" type="video/webm">
+</video>
+
+<!-- Controles personalizados -->
+<button id="play">Play</button>
+<button id="pause">Pause</button>
+<button id="subirVolumen">Subir volumen</button>
+<button id="bajarVolumen">Bajar volumen</button>
+
+<script>
+    let play = document.getElementById("play");
+    let pause = document.getElementById("play");
+    let subirVolumen = document.getElementById("play");
+    let bajarVolumen = document.getElementById("play");
+    const video = document.getElementById("video");
+
+    pause.addEventListener('click', (e) => {
+        video.pause()
+    })
+    play.addEventListener('click', (e) => {
+        video.play()
+    })
+    subirVolumen.addEventListener('click', (e) => {
+        video.volume = Math.min(video.volume + 0.1, 1);
+    })
+    bajarVolumen.addEventListener('click', (e) => {
+        video.volume = Math.min(video.volume - 0.1, 1);
+    })
+</script>
+
+</body>
+</html>
